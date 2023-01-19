@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+#open-sidebar {
+    padding: 10px 30px;
+    background-color: lightblue;
+    color: white;
+    font-size: 12px;
+    margin-left: 800px;
+}
+
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    bottom: 0;
+    left: -370px;
+    width: 365px;
+    height: 100%;
+    position: absolute;
+    z-index: 101;
+    overflow-y: scroll;
+    background-color: white;
+    transition: 850ms;
+}
+
+#sidebar.active {
+    left: 0;
+    transition: 250ms;
+}
+
+.sidebar-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #232F3E;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    padding-left: 36px;
+}
+
+.sidebar-header-text {
+    color: white;
+    font-weight: 700;
+    font-size: 19px;
+    font-family: Arial, sans-serif;
+    padding-left: 10px;
+    padding: 20px 20px 20px 0;
+}
+
+.sign-in-icon {
+    height: 25px;
+    margin-right: 12px;
+}
+
+.side-arrow {
+    height: 14px;
+    float: right;
+}
+
+.down-arrow2 {
+    height: 10px;
+    float: right;
+}
+
+.sidebar-col {
+    width: 100%;
+    background-color: white;
+    padding-top: 10px;
+    border-bottom: 1px solid lightgray;
+    justify-content: center;
+}
+
+.sidebar-col-title {
+    color: #111111;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    padding: 13px 20px 13px 36px;
+}
+
+.sidebar-col-links {
+    color: #111111;
+    padding: 13px 20px 13px 36px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    align-items: center;
+}
+
+.sidebar-col-see-all {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.sidebar-col-reg, .sidebar-col-lang {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 13px 20px 13px 36px;
+    color: #111111;
+    padding: 13px 20px 13px 36px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+.us-flag2 {
+    height: 13px;
+    margin-right: 8px;
+}
+
+.lang-icon {
+    height: 14px;
+    margin-right: 8px;
+}

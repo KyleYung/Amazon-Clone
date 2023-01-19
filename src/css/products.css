@@ -1,0 +1,361 @@
+.content {
+    box-sizing: border-box;
+    overflow: hidden;
+    top: 100px;
+}
+
+.ad-container {
+    top: 100;
+    overflow: hidden;
+    box-sizing: border-box;
+    overflow: hidden;
+    max-width: 1480px;
+    margin: 0 auto;
+}
+
+.ad-banner {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.products-container {
+    max-width: 1480px;
+    margin: 0 auto;
+    background-color: rgb(240, 240, 240);
+    margin-top: -325px;
+    padding: 0 20px 0 20px;
+    z-index: 100;
+}
+
+.product-row {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    position: relative;
+    background: linear-gradient(to bottom, transparent, rgb(240, 240, 240));
+    justify-content: space-between;
+}
+
+/* section/row divider */
+.row-break {
+    display: flex;
+    width: 100%;
+    height: 20px;
+    background-color: rgb(240, 240, 240); 
+}
+
+.product-heading {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 21px;
+    font-weight: bold;
+    color: black;
+    width: 335px;
+}
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 420px;
+    width: 335px;
+}
+
+.product-details {
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    margin-top: 30px;
+    color: #007185;
+}
+
+.quadcard {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 18px;
+}
+
+.quadcard-image1 {
+    width: 140px;
+    height: 115px;
+    cursor: pointer;
+    margin-left: 20px;
+    object-fit: cover;
+}
+
+.quadcard-image1:hover, .quadcard-image2:hover, .quadcard-image3:hover, .quadcard-image4:hover {
+    cursor: pointer;
+}
+
+.quadcard-image2 {
+    width: 140px;
+    height: 115px;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+.quadcard-image3 {
+    width: 140px;
+    height: 115px;
+    cursor: pointer;
+    margin-left: 20px;
+    object-fit: cover;
+}
+
+.quadcard-image4 {
+    width: 140px;
+    height: 115px;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+.single-card-image {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    margin-left: 20px;
+    margin-right: 20px;
+    flex-grow: 1;
+}
+
+.single-card-image:hover {
+    cursor: pointer;
+}
+
+.image-heading-left {
+    font-size: 12px;
+    color: black;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.image-heading-right {
+    font-size: 12px;
+    color: black;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.product-banner-container {
+    width: 100%;
+    max-height: 345px;
+    background-color: rgb(240, 240, 240);
+}
+
+.product-banner {
+    background-color: white;
+    overflow-x: hidden;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.product-banner-heading {
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    font-size: 21px;
+    font-weight: bold;
+    color: black;
+    width: 700px;
+}
+
+.banner-frame {
+    display: flex;
+    margin-top: 5px;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* removes scrollbar */
+.banner-frame::-webkit-scrollbar {
+    background-color: transparent;
+    height: 7px;
+    cursor: pointer;
+}
+
+.banner-frame::-webkit-thumb {
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* left button that slides the banner*/ 
+.left-button {
+    position: absolute;
+    background-color: white;
+    height: 90px;
+    width: 50px;
+    text-align: center;
+    cursor: pointer;
+    top: 40%;
+    border: 3px solid transparent;
+}
+
+/* right button that slides the banner */ 
+.right-button {
+    position: absolute;
+    background-color: white;
+    height: 90px;
+    width: 50px;
+    text-align: center;
+    cursor: pointer;
+    top: 40%;
+    border: 3px solid transparent;
+}
+
+.left-button {
+    border-radius: 0 5px 5px 0;
+    left: 20px;
+}
+
+.right-button {
+    border-radius: 5px 0 0 5px;
+    right: 20px;
+}
+
+.left-button:hover, .right-button:hover {
+    border: 3px solid rgb(2, 150, 150);
+}
+
+.left-button i, .right-button i {
+    color: rgb(54, 54, 54);
+    position: absolute;
+    top: 35%;
+    right: 13%;
+    left: 13%;
+    font-size: 30px;
+}
+
+.banner-images:hover {
+    cursor: pointer;
+}
+
+.banner-images img {
+    width: auto;
+    height: auto;
+    max-width: 270px;
+    max-height: 200px;
+    vertical-align: middle;
+    margin-left: 20px;  
+}
+
+.banner-products {
+    display: flex;
+    flex-direction: column;
+}
+
+.deal-details {
+    min-width: 145px;
+    max-width: 270px;
+    max-height: 200px;
+    overflow: hidden;
+    position: relative;
+    align-items: center;
+    white-space: nowrap;
+    padding: 10px;
+}
+
+.top-detail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.discount-tag {
+    display: block;
+    background-color: #CC0C39;
+    font-size: 12px;
+    font-weight: 400;
+    border-radius: 2px;
+    line-height: 12px;
+    padding: 4px 6px;
+    position: relative;
+    box-sizing: border-box;
+    max-width: 200px;
+}
+
+.deal-timer {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: bold;
+    color: #CC0C39;
+    margin-left: 5px;
+}
+
+.bottom-detail {
+    display: flex;
+    flex-direction: row;
+}
+
+.price-tag {
+    display: flex;
+    flex-direction: row;
+}
+
+.dollar-sign {
+    font-size: 10px;
+    color: black;
+    float: left;
+    margin-top: 2px;
+}
+
+.whole-num {
+    font-size: 18px;
+    color: black;
+    float: left;
+}
+
+.deci-num {
+    font-size: 10px;
+    color: black;
+    float: left;
+    margin-top: 2px;
+}
+
+.prev-price-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.prev-price-text {
+    color: black;
+    font-size: 12px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.prev-price {
+    color: black;
+    font-size: 12px;
+    margin-left: 2px;
+    margin-top: 5px;
+}
+
+/* back to top button*/
+.back-to-top {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: white;
+    background-color: #344255;
+}
+
+.back-to-top:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.back-to-top-text {
+    text-align: center;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    padding: 15px;
+}

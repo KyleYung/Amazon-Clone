@@ -1,0 +1,97 @@
+.content {
+    display: relative;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: auto;
+    position: absolute;
+}
+
+.ad {
+    width: 100%;
+    height: 100%;
+}
+
+.product-section {
+    position: absolute;
+    z-index: 1;
+    top: 230px;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to bottom, transparent, #fff 80%);
+}
+
+.product-row {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    box-sizing: border-box;
+    margin: 20px 0;
+    justify-content: space-between;
+}
+
+.product-heading {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 21px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.product-card {
+    width: 315px;
+    height: 400px;
+    background-color: white;
+}
+
+.product-details {
+    display: block;
+    font-size: 13px;
+    margin-left: 20px;
+}
+
+.quadcard {
+    display: block;
+    margin-left: 20px;
+    font-size: 13px;
+    padding-top: 30px;
+}
+
+.quadcard-image {
+    width: 167px;
+    height: 120px;
+    margin-left: -20px;
+    cursor: pointer;
+    margin-right: 0;
+}
+
+.quadcard div {
+    display: inline-block;
+}
+
+.single-card {
+    height: 275px;
+}
+
+.single-card-image {
+    height: 275px;
+    object-fit: cover;
+    margin: 10px;
+    flex-grow: 1;
+}
+
+.image-heading {
+    font-size: 12px;
+    color: black;
+    padding-left: 10px;
+}

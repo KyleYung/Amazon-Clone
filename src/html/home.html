@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Amazon Clone</title>
+        <link rel="stylesheet" href="/src/css/general.css"/>
+        <link rel="stylesheet" href="/src/css/header.css"/>
+        <link rel="stylesheet" href="/src/css/sidebar.css"/>
+        <link rel="stylesheet" href="/src/css/products.css"/>
+        <link rel="stylesheet" href="/src/css/footer.css"/>
+        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+    </head>
+    <body>
+        <div class="main">
+            <div class="sidebar">
+                <div class="sidebar-header">
+                    <img class="sign-in-icon" src="/resources/icons/sign-in.png">
+                    <div class="sidebar-header-text">Hello, sign in</div>
+                </div>
+                <div class="sidebar-col">
+                    <div class="sidebar-col-title">Trending</div> 
+                    <div class="sidebar-col-links">Best Sellers</div>
+                    <div class="sidebar-col-links">New Releases</div>
+                    <div class="sidebar-col-links">Movers and Shakers</div>
+                </div>
+
+                <div class="sidebar-col">
+                    <div class="sidebar-col-title">Digital Content & Devices</div>
+                    <div class="sidebar-col-links">Prime Video<img class="side-arrow" src="/resources/icons/side-arrow.png"></img></div>
+                    <div class="sidebar-col-links">Amazon Music<img class="side-arrow" src="/resources/icons/side-arrow.png"></img></div>
+                    <div class="sidebar-col-links">Echo and Alexa<img class="side-arrow" src="/resources/icons/side-arrow.png"></img></div>
+                    <div class="sidebar-col-links">Fire Tablets<img class="side-arrow" src="/resources/icons/side-arrow.png"></img></div>
+                    <div class="sidebar-col-links">Fire TV<img class="side-arrow" src="/resources/icons/side-arrow.png"></img></div>
+                    <div class="sidebar-col-links">Kindle E-reader & Books<img class="side-arrow" src="/resources/icons/side-arrow.png"></img></div>
+                    <div class="sidebar-col-links">Audio Books and Originals<img class="side-arrow" src="/resources/icons/side-arrow.png"></img></div>
+                    <div class="sidebar-col-links">Amazon Photos<img class="side-arrow" src="/resources/icons/side-arrow.png"></img></div>
+                    <div class="sidebar-col-links">Amazon Appstore<img class="side-arrow" src="/resources/icons/side-arrow.png"></img></div>
+                </div>
+
+                <div class="sidebar-col">
+                    <div class="sidebar-col-title">Shop by Department</div>
+                    <div class="sidebar-col-links">Best Sellers<img class="side-arrow" src="/resources/icons/side-arrow.png"></img></div>
+                    <div class="sidebar-col-links">New Releases<img class="side-arrow" src="/resources/icons/side-arrow.png"></img></div>
+                    <div class="sidebar-col-links">Movers and Shakers<img class="side-arrow" src="/resources/icons/side-arrow.png"></img></div>
+                </div>
+
+                <div class="sidebar-col">
+                    <div class="sidebar-col-title">Programs and Features</div>
+                    <div class="sidebar-col-links">Whole Foods Market<img class="side-arrow" src="/resources/icons/side-arrow.png"></img></div>
+                    <div class="sidebar-col-links">Pharmacy<img class="side-arrow" src="/resources/icons/side-arrow.png"></img></div>
+                    <div class="sidebar-col-links">Clinic<img class="side-arrow" src="/resources/icons/side-arrow.png"></img></div>
+                    <div class="sidebar-col-links">Amazon Physical Stores<img class="side-arrow" src="/resources/icons/side-arrow.png"></img></div>
+                    <div class="sidebar-col-see-all">
+                        <div class="sidebar-col-links">See All</div>
+                        <img class="down-arrow2" src="/resources/icons/down-arrow2.png"></img>
+                    </div>
+                </div>
+
+                <div class="sidebar-col">
+                    <div class="sidebar-col-title">Help & Settings</div>
+                    <div class="sidebar-col-links">Your Account</div>
+                    <div class="sidebar-col-lang"><img class="lang-icon" src="/resources/icons/lang-icon.png">English</div>
+                    <div class="sidebar-col-reg"><img class="us-flag2" src="/resources/icons/us-flag.png">United States</div>
+                    <div class="sidebar-col-links">Sign In</div>
+                </div>
+
+            </div>
+            <i class="fa-solid fa-xmark"></i>
+
+            <div class="triangle2"></div>
+
+            <div class="lang-hidden">
+                <div class="lang-row">
+                    <div class="dot">
+                        <div class="inner-dot"></div>
+                    </div>
+                    <div class="lang-row-selected">English - EN</div>
+                </div>
+
+                <div class="lang-row-divider"></div>
+
+                <div class="lang-row">
+                    <div class="dot"></div>
+                    <div class="lang-row-text">
+                        <div class="lang-row-item">Español - ES</div>
+                        <div class="lang-row-links">Learn more</div>
+                    </div>
+                </div>
+
+                <div class="lang-row-divider"></div>
+
+                <div class="lang-row">
+                    <img class="us-flag3" src="/resources/icons/us-flag.png">
+                    <div class="lang-row-text">
+                        <div class="lang-row-reminder">You are shopping on Amazon.com</div>
+                        <div class="lang-row-links">Change country/region</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="triangle"></div>
+
+            <div class="sign-in-hidden">
+                <div class="sign-in-hidden-header">
+                    <div class="sign-in-hidden-header-container">
+                        <button class="sign-in-button" type="button">Sign In</button>
+                        <div class="sign-in-lower">
+                            New customer?
+                            <p class="sign-in-link">Start here.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sign-in-hidden-content">
+                    <div class="sign-in-hidden-col">
+                        <div class="sign-in-hidden-title">Your Lists</div>
+                        <div class="sign-in-hidden-links">Create a List</div>
+                        <div class="sign-in-hidden-links">Find a List or Registry</div>
+                        <div class="sign-in-hidden-links">Amazon Smile Charity Lists</div>
+                    </div>
+
+                    <div class="sign-in-hidden-col-divider"></div>
+
+                    <div class="sign-in-hidden-col">
+                        <div class="sign-in-hidden-title">Your Account</div>
+                        <div class="sign-in-hidden-links">Account</div>
+                        <div class="sign-in-hidden-links">Orders</div>
+                        <div class="sign-in-hidden-links">Recommendation</div>
+                        <div class="sign-in-hidden-links">Browsing History</div>
+                        <div class="sign-in-hidden-links">Watchlist</div>
+                        <div class="sign-in-hidden-links">Video Purchases and Rentals</div>
+                        <div class="sign-in-hidden-links">Kindle Unlimited</div>
+                        <div class="sign-in-hidden-links">Content & Devices</div>
+                        <div class="sign-in-hidden-links">Subscribe and Save Items</div>
+                        <div class="sign-in-hidden-links">Memberships and Subscriptions</div>
+                        <div class="sign-in-hidden-links">Prime Membership</div>
+                        <div class="sign-in-hidden-links">Amazon Credit Cards</div>
+                        <div class="sign-in-hidden-links">Music Library</div>
+                        <div class="sign-in-hidden-links">Start a Selling Account</div>
+                        <div class="sign-in-hidden-links">Register for a Business Account</div>
+                        <div class="sign-in-hidden-links">Customer Service</div>
+                    </div>
+                </div>
+            </div>
+            <div class="filter"></div>
+            <div class="header">
+                <div class="left-section">
+                    <img class="amazon-logo" src="/resources/icons/amazon-logo.png">
+                    <div class="select-address">
+                        <img class="address-icon" src="/resources/icons/address-icon.png">
+                        <p class="address-line1">Hello</p>
+                        <p class="address-line2">Select your address</p>
+                    </div>
+                </div>
+                <div class="middle-section">
+                    <button class="category-button">
+                        <p class="category-text">All</p>
+                        <img class="down-arrow2" src="/resources/icons/down-arrow.png">
+                    </button>
+                    <input class="searchbar" type="text">
+                    <button class="search-button">
+                        <img class="search-icon" src="/resources/icons/search-icon.png">
+                    </button>
+                </div>
+                <div class="right-section">
+
+                    <div class="language">
+                        <img class="flag" src="/resources/icons/us-flag.png">
+                        <P class="lang-text">EN</P>
+                        <img class="down-arrow" src="/resources/icons/down-arrow.png">
+                    </div>
+
+                    <div class="sign-in">
+                        <p class="sign-in-line1">Hello, sign in</p>
+                        <div class="sign-in-bottom">
+                            <p class="sign-in-line2">Account and Lists</p>
+                            <img class="down-arrow" src="/resources/icons/down-arrow.png">
+                        </div>
+                        <div class="sign-in-hide">
+                            <div class="hide-container">
+                                <div class="hide-header">
+
+                                </div>
+                                <div class="hide-content">
+                                    <div class="hide-col">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="orders">
+                        <p class="sign-in-line1">Returns</p>
+                        <p class="sign-in-line2">& Orders</p>
+                    </div>
+
+                    <div class="cart">
+                        <div class="cart-icon-container">
+                            <img class="cart-icon" src="/resources/icons/cart-icon.png">
+                            <div class="cart-icon-counter">0</div>
+                        </div>
+                        <p class="cart-text">Cart</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="navbar">
+                <div class="navbar-items">
+                    <div class="navbar-all">
+                        <img class="hamburger-menu" src="/resources/icons/hamburger-icon.png">
+                        <p class="navbar-links-all">All</p>
+                    </div>
+                    <p class="navbar-links">Clinic</p>
+                    <p class="navbar-links">Customer Service</p>
+                    <p class="navbar-links">Best Sellers</p>
+                    <p class="navbar-links">Amazon Basics</p>
+                    <p class="navbar-links">Prime</p>
+                    <p class="navbar-links">New Releases</p>
+                    <p class="navbar-links">Books</p>
+                    <p class="navbar-links">Music</p>
+                    <p class="navbar-links">Gift Cards</p>
+                    <p class="navbar-links">Registry</p>
+                    <p class="navbar-links">Fashion </p>
+                    <p class="navbar-links">Amazon Home</p>
+                    <p class="navbar-links">Toys & Games</p>
+                    <p class="navbar-links">Pharmacy</p>
+                </div>
+                <div class="navbar-ad">
+                    <p class="navbar-ad-text"></p>
+                </div>
+            </div>
+
+            <div class="content">
+                <div class="ad-container">
+                    <img class="ad-banner" src="/resources/product-images/ad.jpg">
+                </div>
+                <div class="products-container">
+                    <div class="product-row">
+                        <div class="product-card">
+                            <p class="product-heading">The New Year Sale</p>
+                            <div class="quadcard">
+                                <div>
+                                    <img class="quadcard-image1" src="/resources/product-images/home and kitchen.jpg">
+                                    <p class="image-heading-left">Home and Kitchen</p>
+                                </div>
+                                
+                                <div>
+                                    <img class="quadcard-image2" src="/resources/product-images/electronics.jpg">
+                                    <p class="image-heading-right">Electronics</p>
+                                </div>
+
+                                <div>
+                                    <img class="quadcard-image3" src="/resources/product-images/fashion.jpg">
+                                    <p class="image-heading-left">Fashion</p>
+                                </div>
+
+                                <div>
+                                    <img class="quadcard-image4" src="/resources/product-images/personal-care.jpg">
+                                    <p class="image-heading-right">Personal Care</p>
+                                </div>
+                            </div>
+                            <div class="product-details">Shop Clearance</div>
+                        </div>
+
+                        <div class="product-card">
+                            <p class="product-heading">The pre-loved edit at Shopbop</p>
+                            <div class="single-card">
+                                <img class="single-card-image" src="/resources/product-images/purses.jpg">
+                            </div>
+                            <div class="product-details">See the full edit from Shopbop</div>
+                        </div>
+
+                        <div class="product-card">
+                            <p class="product-heading">Gift cards for the New Year</p>
+                            <div class="single-card">
+                                <img class="single-card-image" src="/resources/product-images/gift-cards.jpg">
+                            </div>
+                            <div class="product-details">Shop gift cards</div>
+                        </div>
+
+                        <div class="product-card">
+                            <p class="product-heading">Let's Go, Bengals</p>
+                            <div class="single-card">
+                                <img class="single-card-image" src="/resources/product-images/bengals.jpg">
+                            </div>
+                            <div class="product-details">Shop Cincinnati Bengals gear</div>
+                        </div>
+                    </div>
+
+                    <div class="row-break"></div>
+
+                    <div class="product-row">
+                        <div class="product-card">
+                            <p class="product-heading">Top Deal</p>
+                            <div class="single-card">
+                                <img class="single-card-image" src="/resources/product-images/protein.jpg">
+                            </div>
+                            <div class="product-details">See all deals</div>
+                        </div>
+
+                        <div class="product-card">
+                            <p class="product-heading">Shop now, pay later</p>
+                            <div class="single-card">
+                                <img class="single-card-image" src="/resources/product-images/MTcwYjYxZDQt-ZTI3YWY2ZGUt-w758._SY608_CB618493853_.jpg">
+                            </div>
+                            <div class="product-details">Shop Try Before You Buy</div>
+                        </div>
+
+                        <div class="product-card">
+                            <p class="product-heading">Save big in the New Year Sale</p>
+                            <div class="single-card">
+                                <img class="single-card-image" src="/resources/product-images/ny-clothes.jpg">
+                            </div>
+                            <div class="product-details">Shop now</div>
+                        </div>
+
+                        <div class="product-card">
+                            <p class="product-heading">Shop Premium Brands</p>
+                            <div class="quadcard">
+                                <div>
+                                    <img class="quadcard-image1" src="/resources/product-images/MJ.jpg">
+                                    <p class="image-heading-left">Marc Jacobs</p>
+                                </div>
+                                
+                                <div>
+                                    <img class="quadcard-image2" src="/resources/product-images/velvet.jpg">
+                                    <p class="image-heading-right">Velvet</p>
+                                </div>
+
+                                <div>
+                                    <img class="quadcard-image3" src="/resources/product-images/theory.jpg">
+                                    <p class="image-heading-left">Theory</p>
+                                </div>
+
+                                <div>
+                                    <img class="quadcard-image4" src="/resources/product-images/martens.jpg">
+                                    <p class="image-heading-right">Dr. Martins</p>
+                                </div>
+                            </div>
+                            <div class="product-details">Discover more Premium Brands</div>
+                        </div>
+                    </div>
+
+                    <div class="row-break"></div>
+
+                    <div class="product-banner-container">
+                        <div class="product-banner">
+                            <div class="left-button"><i class="fa-solid fa-chevron-left"></i> </div>
+                            <div class="right-button"><i class="fa-solid fa-chevron-right"></i></div>
+                            <p class="product-banner-heading">Best Sellers in Books</p>
+                            <div class="banner-frame">
+                                <div class="banner-images">
+                                    <img src="/resources/product-images/books/41ZLnc34EiL._AC_SY400_.jpg">
+                                </div>
+                                <div class="banner-images">
+                                    <img src="/resources/product-images/books/71aG+xDKSYL._AC_SY400_.jpg">
+                                </div>
+                                <div class="banner-images">
+                                    <img src="/resources/product-images/books/71PNGYHykrL._AC_SY400_.jpg">
+                                </div>
+                                <div class="banner-images">
+                                    <img src="/resources/product-images/books/91HHxxtA1wL._AC_SY400_.jpg">
+                                </div>
+                                <div class="banner-images">
+                                    <img src="/resources/product-images/books/8144Vic9C5L._AC_SY400_.jpg">
+                                </div>
+                                <div class="banner-images">
+                                    <img src="/resources/product-images/books/81s0B6NYXML._AC_SY400_.jpg">
+                                </div>
+                                <div class="banner-images">
+                                    <img src="/resources/product-images/books/81wgcld4wxL._AC_SY400_.jpg">
+                                </div>
+                                <div class="banner-images">
+                                    <img src="/resources/product-images/books/91MowzF+WZL._AC_SY400_.jpg">
+                                </div>
+                                <div class="banner-images">
+                                    <img src="/resources/product-images/books/91Szm8FpdfL._AC_SY400_.jpg">
+                                </div>
+                                <div class="banner-images">
+                                    <img src="/resources/product-images/books/91HHxxtA1wL._AC_SY400_.jpg">
+                                </div>
+                                <div class="banner-images">
+                                    <img src="/resources/product-images/books/8144Vic9C5L._AC_SY400_.jpg">
+                                </div>     
+                                <div class="banner-images">
+                                    <img src="/resources/product-images/books/81O1oy0y9eL._AC_SY400_.jpg">
+                                </div>
+                                <div class="banner-images">
+                                    <img src="/resources/product-images/books/81hHy5XrdKL._AC_SY400_.jpg">
+                                </div>
+                                <div class="banner-images">
+                                    <img src="/resources/product-images/books/81JDmCKnv0L._AC_SY400_.jpg">
+                                </div>
+                                <div class="banner-images">
+                                    <img src="/resources/product-images/books/71E8VNPC1dL._AC_SY400_.jpg">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-break"></div>
+
+                    <div class="product-banner-container">
+                        <div class="product-banner">
+                            <div class="left-button left-button2"><i class="fa-solid fa-chevron-left"></i> </div>
+                            <div class="right-button right-button2"><i class="fa-solid fa-chevron-right"></i></div>
+                            <p class="product-banner-heading">Best Sellers in Cell Phones & Accessories</p>
+                            <div class="banner-frame banner-frame2">
+                                <div class="banner-images">
+                                    <img src="/resources/product-images/cellphone-accessories/61wDa7Ea5TL._AC_SY400_.jpg">
+                                </div>
+                                <div class="banner-images">
+                                    <img src="/resources/product-images/cellphone-accessories/41iWogJnZQL._AC_SY400_.jpg">
+                                </div>
+                                <div class="banner-images">
+                                    <img src="/resources/product-images/cellphone-accessories/71fW+RXbrzL._AC_SY400_ (1).jpg">
+                                </div>
+                                <div class="banner-images">
+                                    <img src="/resources/product-images/cellphone-accessories/81MZ5D1wHpL._AC_SY400_.jpg">
+                                </div>
+                                <div class="banner-images">
+                                    <img src="/resources/product-images/cellphone-accessories/71fW+RXbrzL._AC_SY400_.jpg">
+                                </div>
+                                <div class="banner-images">
+                                    <img src="/resources/product-images/cellphone-accessories/61GWMM8BUIL._AC_SY400_.jpg">
+                                </div>
+                                <div class="banner-images">
+                                    <img src="/resources/product-images/cellphone-accessories/71rC6tBu0NL._AC_SY400_.jpg">
+                                </div>
+                                <div class="banner-images">
+                                    <img src="/resources/product-images/cellphone-accessories/61oIAKY9s1L._AC_SY400_.jpg">
+                                </div>
+                                <div class="banner-images">
+                                    <img src="/resources/product-images/cellphone-accessories/61JkEouNSAL._AC_SY400_.jpg">
+                                </div>
+                                <div class="banner-images">
+                                    <img src="/resources/product-images/cellphone-accessories/71NGpVGuSPL._AC_SY400_.jpg">
+                                </div>
+                                <div class="banner-images">
+                                    <img src="/resources/product-images/cellphone-accessories/515ljI6lHcL._AC_SY400_.jpg">
+                                </div>
+                                <div class="banner-images">
+                                    <img src="/resources/product-images/cellphone-accessories/41gTIFgAiQL._AC_SY400_.jpg">
+                                </div>
+                                <div class="banner-images">
+                                    <img src="/resources/product-images/cellphone-accessories/71UCZTDMEDL._AC_SY400_.jpg">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-break"></div>
+
+                    <div class="product-row">
+                        <div class="product-card">
+                            <p class="product-heading">Let's Go, Ravens</p>
+                            <div class="single-card">
+                                <img class="single-card-image" src="/resources/product-images/ravens.jpg">
+                            </div>
+                            <div class="product-details">Shop Baltimore Ravens gear</div>
+                        </div>
+
+                        <div class="product-card">
+                            <p class="product-heading">Car care, low prices</p>
+                            <div class="quadcard">
+                                <div>
+                                    <img class="quadcard-image1" src="/resources/product-images/cleaning.jpg">
+                                    <p class="image-heading-left">Cleaning kits</p>
+                                </div>
+                                
+                                <div>
+                                    <img class="quadcard-image2" src="/resources/product-images/vacuum.jpg">
+                                    <p class="image-heading-right">Vacuum</p>
+                                </div>
+
+                                <div>
+                                    <img class="quadcard-image3" src="/resources/product-images/wipes.jpg">
+                                    <p class="image-heading-left">Wipes</p>
+                                </div>
+
+                                <div>
+                                    <img class="quadcard-image4" src="/resources/product-images/gel.jpg">
+                                    <p class="image-heading-right">Gel</p>
+                                </div>
+                            </div>
+                            <div class="product-details">Shop automotive deals</div>
+                        </div>
+
+                        <div class="product-card">
+                            <p class="product-heading">Disney magic awaits</p>
+                            <div class="single-card">
+                                <img class="single-card-image" src="/resources/product-images/disney.jpg">
+                            </div>
+                            <div class="product-details">Explore more</div>
+                        </div>
+
+                        <div class="product-card">
+                            <p class="product-heading">Characters you love</p>
+                            <div class="quadcard">
+                                <div>
+                                    <img class="quadcard-image1" src="/resources/product-images/princess.jpg">
+                                    <p class="image-heading-left">Disney Princess</p>
+                                </div>
+                                
+                                <div>
+                                    <img class="quadcard-image2" src="/resources/product-images/minnie.jpg">
+                                    <p class="image-heading-right">Minnie Mouse</p>
+                                </div>
+
+                                <div>
+                                    <img class="quadcard-image3" src="/resources/product-images/mario.jpg">
+                                    <p class="image-heading-left">Super Mario</p>
+                                </div>
+
+                                <div>
+                                    <img class="quadcard-image4" src="/resources/product-images/bluey.jpg">
+                                    <p class="image-heading-right">Bluey</p>
+                                </div>
+                            </div>
+                            <div class="product-details">Shop gifts</div>
+                        </div>
+                    </div>
+
+                    <div class="row-break"></div>
+
+                    <div class="product-banner-container">
+                        <div class="product-banner">
+                            <div class="left-button left-button3"><i class="fa-solid fa-chevron-left"></i> </div>
+                            <div class="right-button right-button3"><i class="fa-solid fa-chevron-right"></i></div>
+                            <p class="product-banner-heading">Trending deals</p>
+                            <div class="banner-frame banner-frame3">
+                                <div class="banner-products">
+                                    <div class="banner-images">
+                                        <img src="/resources/product-images/trending/41sOHgxB2yS._SY500__AC_SY400_.jpg">
+                                    </div>
+                                    <div class="deal-details">
+                                        <div class="top-detail">
+                                            <p class="discount-tag">64% Off</p>
+                                            <p class="deal-timer">Deal</p>
+                                        </div>
+                                        <div class="bottom-detail">
+                                            <div class="price-tag">
+                                                <p class="dollar-sign">$</p>
+                                                <p class="whole-num">31</p>
+                                                <p class="deci-num">98</p>
+                                            </div>
+                                            <div class="prev-price-container">
+                                                <p class="prev-price-text">Was:</p>
+                                                <p class="prev-price"><s>$50.00</s></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="banner-images">
+                                    <img src="/resources/product-images/trending/2143-gZr78L._SY500__AC_SY400_.jpg">
+                                    <div class="deal-details">
+                                        <div class="top-detail">
+                                            <p class="discount-tag">51% Off</p>
+                                            <p class="deal-timer">Deal</p>
+                                        </div>
+                                        <div class="bottom-detail">
+                                            <div class="price-tag">
+                                                <p class="dollar-sign">$</p>
+                                                <p class="whole-num">9</p>
+                                                <p class="deci-num">99</p>
+                                            </div>
+                                            <div class="prev-price-container">
+                                                <p class="prev-price-text">Was:</p>
+                                                <p class="prev-price"><s>$20.00</s></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="banner-images">
+                                    <img src="/resources/product-images/trending/41BCnnEnbkL._SY500__AC_SY400_.jpg">
+                                    <div class="deal-details">
+                                        <div class="top-detail">
+                                            <p class="discount-tag">80% Off</p>
+                                            <p class="deal-timer">Deal</p>
+                                        </div>
+                                        <div class="bottom-detail">
+                                            <div class="price-tag">
+                                                <p class="dollar-sign">$</p>
+                                                <p class="whole-num">29</p>
+                                                <p class="deci-num">99</p>
+                                            </div>
+                                            <div class="prev-price-container">
+                                                <p class="prev-price-text">Was:</p>
+                                                <p class="prev-price"><s>$149.99</s></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="banner-images">
+                                    <img src="/resources/product-images/trending/31H6A82RdiL._SY500__AC_SY400_.jpg">
+                                    <div class="deal-details">
+                                        <div class="top-detail">
+                                            <p class="discount-tag">Up to 43% Off</p>
+                                            <p class="deal-timer">Deal</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="banner-images">
+                                    <img src="/resources/product-images/trending/51grvfywmKL._SY500__AC_SY400_.jpg">
+                                    <div class="deal-details">
+                                        <div class="top-detail">
+                                            <p class="discount-tag">50% Off</p>
+                                            <p class="deal-timer">Deal</p>
+                                        </div>
+                                        <div class="bottom-detail">
+                                            <div class="price-tag">
+                                                <p class="dollar-sign">$</p>
+                                                <p class="whole-num">24</p>
+                                                <p class="deci-num">99</p>
+                                            </div>
+                                            <div class="prev-price-container">
+                                                <p class="prev-price-text">Was:</p>
+                                                <p class="prev-price"><s>$50.00</s></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="banner-images">
+                                    <img src="/resources/product-images/trending/31IFmZXTt8L._SY500__AC_SY400_.jpg">
+                                    <div class="deal-details">
+                                        <div class="top-detail">
+                                            <p class="discount-tag">$15.99 and under</p>
+                                            <p class="deal-timer">Deal</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="banner-images">
+                                    <img src="/resources/product-images/trending/61CSfA-T6TL._SY500__AC_SY400_.jpg">
+                                    <div class="deal-details">
+                                        <div class="top-detail">
+                                            <p class="discount-tag">25% Off</p>
+                                            <p class="deal-timer">Deal</p>
+                                        </div>
+                                        <div class="bottom-detail">
+                                            <div class="price-tag">
+                                                <p class="dollar-sign">$</p>
+                                                <p class="whole-num">12</p>
+                                                <p class="deci-num">98</p>
+                                            </div>
+                                            <div class="prev-price-container">
+                                                <p class="prev-price-text">Was:</p>
+                                                <p class="prev-price"><s>$47.99</s></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="banner-images">
+                                    <img src="/resources/product-images/trending/519j2hynkwL._SY500__AC_SY400_.jpg">
+                                    <div class="deal-details">
+                                        <div class="top-detail">
+                                            <p class="discount-tag">Up to 43% Off</p>
+                                            <p class="deal-timer">Deal</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="banner-images">
+                                    <img src="/resources/product-images/trending/51GYUEYW1kL._SY500__AC_SY400_.jpg">
+                                    <div class="deal-details">
+                                        <div class="top-detail">
+                                            <p class="discount-tag">$12.74 and under</p>
+                                            <p class="deal-timer">Deal</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="banner-images">
+                                    <img src="/resources/product-images/trending/31ny-XqTmjL._SY500__AC_SY400_.jpg">
+                                    <div class="deal-details">
+                                        <div class="top-detail">
+                                            <p class="discount-tag">Up to 41% Off</p>
+                                            <p class="deal-timer">Deal</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="banner-images">
+                                    <img src="/resources/product-images/trending/51HuaFqjOdL._SY500__AC_SY400_.jpg">
+                                    <div class="deal-details">
+                                        <div class="top-detail">
+                                            <p class="discount-tag">Up to 53% Off</p>
+                                            <p class="deal-timer">Deal</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="banner-images">
+                                    <img src="/resources/product-images/trending/312KOGgo5fL._SY500__AC_SY400_.jpg">
+                                    <div class="deal-details">
+                                        <div class="top-detail">
+                                            <p class="discount-tag">Up to 57% Off</p>
+                                            <p class="deal-timer">Deal</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-break"></div>
+                </div>
+            </div>
+            
+            <div class="footer-frame">
+                <div class="sign-in-banner">
+                    <div class="sign-in-margin"></div>
+                    <div class="sign-in-container">
+                        <div class="sign-in-upper">See personalized recommendation</div>
+                        <button class="sign-in-button" type="button">Sign In</button>
+                        <div class="sign-in-lower">
+                            New customer?
+                            <p class="sign-in-link">Start here.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div onclick="topFunction()" class="back-to-top">
+                    <div class="back-to-top-text">Back to Top</div>
+                </div>
+
+                <div class="footer">
+                    <div class="footer-container">
+                        <div class="footer-links-col">
+                            <div class="footer-header">Get to Know Us</div>
+                            
+                            <div class="footer-links">Careers</div>
+                            <div class="footer-links">Amazon Newsletter</div>
+                            <div class="footer-links">About Amazon</div>
+                            <div class="footer-links">Accessability</div>
+                            <div class="footer-links">Press Center</div>
+                            <div class="footer-links">Investor Relations</div>
+                            <div class="footer-links">Amazon Devices</div>
+                            <div class="footer-links">Amazon Science</div>
+                        </div>
+
+                        <div class="footer-links-col">
+                            <div class="footer-header">Make Money with Us</div>
+
+                            <div class="footer-links">Sell Products on Amazon</div>
+                            <div class="footer-links">Sell Apps on Amazon</div>
+                            <div class="footer-links">Supply to Amazon</div>
+                            <div class="footer-links">Protect & Build your Brand</div>
+                            <div class="footer-links">Become an Affiliate</div>
+                            <div class="footer-links">Become a Delivery Driver</div>
+                            <div class="footer-links">Start a Package Delivery Business</div>
+                            <div class="footer-links">Advertise your Products</div>
+                            <div class="footer-links">Self-Publish with Us</div>
+                            <div class="footer-links">Host an Amazon Hub</div>
+                            <div class="footer-links">See More Ways to Make Money</div>
+                        </div>
+
+                        <div class="footer-links-col">
+                            <div class="footer-header">Amazon Payment Products</div>
+
+                            <div class="footer-links">Amazon Rewards Visa Signature Cards</div>
+                            <div class="footer-links">Amazon Store Card</div>
+                            <div class="footer-links">Amazon Secured Card</div>
+                            <div class="footer-links">Amazon Business Card</div>
+                            <div class="footer-links">Shop with Points</div>
+                            <div class="footer-links">Credit Card Marketplace</div>
+                            <div class="footer-links">Reload Your Balance</div>
+                            <div class="footer-links">Amazon Currency Converter</div>
+                        </div>
+
+                        <div class="footer-links-col">
+                            <div class="footer-header">Let Us Help You</div>
+
+                            <div class="footer-links">Amazon and COVID-19</div>
+                            <div class="footer-links">Your Account</div>
+                            <div class="footer-links">Your Orders</div>
+                            <div class="footer-links">Shipping Rates & Policies</div>
+                            <div class="footer-links">Amazon Prime</div>
+                            <div class="footer-links">Returns & Replacements</div>
+                            <div class="footer-links">Manage Your Content and Devices</div>
+                            <div class="footer-links">Your Recalls and Product Safety Alerts</div>
+                            <div class="footer-links">Amazon Assistant</div>
+                            <div class="footer-links">Help</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer2">
+                    <div class="footer2-contents">
+                        <img class="footer2-logo" src="/resources/icons/amazon-logo.png">
+                        <div class="footer2-right-container">
+                            <div class="footer2-right-frame">
+                                <div class="footer2-lang"><img class="lang-icon" src="/resources/icons/lang-icon.png">English</div>
+                                <div class="footer-lang-arrows">
+                                    <img class="arrows" src="/resources/icons/arrows.png">
+                                </div>
+                            </div>
+    
+                            <div class="footer2-right-frame">
+                                <div class="footer2-reg"><img class="us-flag2" src="/resources/icons/us-flag.png">United States</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lang-hidden2">
+                    <div class="lang-row">
+                        <div class="dot">
+                            <div class="inner-dot"></div>
+                        </div>
+                        <div class="lang-row-selected">English - EN</div>
+                    </div>
+    
+                    <div class="lang-row-divider"></div>
+    
+                    <div class="lang-row">
+                        <div class="dot"></div>
+                        <div class="lang-row-text">
+                            <div class="lang-row-item">Español - ES</div>
+                            <div class="lang-row-links">Learn more</div>
+                        </div>
+                    </div>
+    
+                    <div class="lang-row-divider"></div>
+    
+                    <div class="lang-row">
+                        <img class="us-flag3" src="/resources/icons/us-flag.png">
+                        <div class="lang-row-text">
+                            <div class="lang-row-reminder">You are shopping on Amazon.com</div>
+                            <div class="lang-row-links">Change country/region</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer3"></div>
+            </div>
+
+        </div>
+        <script src="/src/js/home.js"></script>
+    </body> 
+</html>
